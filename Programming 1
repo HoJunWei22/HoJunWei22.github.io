@@ -1,0 +1,66 @@
+var xPos = 222;
+var yPos = 168;
+var xPos2 = 251;
+var yPos2 = 248;
+var xPos3 = 188;
+var yPos3 = 68;
+var xPos4 = 56;
+var yPos4 = 35;
+var xPos5 = 314;
+var yPos5 = 305;
+var xPos6 = 309;
+var yPos6 = 141;
+var xPos7 = 371;
+var yPos7 = 83;
+var xPos8 = 111;
+var yPos8 = 199;
+var xPos9 = 350;
+var yPos9 = 351;
+var xPos10 = 337;
+var yPos10 = 230;
+var xPos11 = 201;
+var yPos11 = 287;
+var xPos12 = 90;
+var yPos12 = 352;
+var xPos13 = 37;
+var yPos13 = 268;
+var xPos14 = 47;
+var yPos14 = 122;
+draw = function() {
+    background(29, 40, 115);
+    fill(255, 242, 0);
+    ellipse(xPos, yPos, 10, 10);
+    
+    xPos ++;
+    yPos ++;
+   
+    ellipse(xPos2, yPos2, 10, 10);
+    
+    xPos2 --;
+    yPos2 --;
+    
+    ellipse(xPos3, yPos3, 10, 10);
+    
+    ellipse(xPos4, yPos4, 10, 10);
+    
+    ellipse(xPos5, yPos5, 10, 10);
+    
+    ellipse(xPos6, yPos6, 10, 10);
+    
+    ellipse(xPos7, yPos7, 10, 10);
+    
+    ellipse(xPos8, yPos8, 10, 10);
+    
+    ellipse(xPos9, yPos9, 10, 10);
+    
+    ellipse(xPos10, yPos10, 10, 10);
+    
+    ellipse(xPos11, yPos11, 10, 10);
+    
+    ellipse(xPos12, yPos12, 10, 10);
+    
+    ellipse(xPos13, yPos13, 10, 10);
+    
+    ellipse(xPos14, yPos14, 10, 10);
+    
+};
